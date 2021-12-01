@@ -1,0 +1,23 @@
+**/*.iml
+**/.idea
+**/.cpcache
+**/.nrepl-port
+**/*.*.swp
+**/target
+**/classes
+**/*.tfvars
+**/terraform.tfstate
+**/.terraform
+**/*.jks
+**/*.ovpn
+.DS_Store
+.envrc
+# ignore all of clj-kondo's dir except its config
+.clj-kondo
+!.clj-kondo/config.edn
+.lsp
+**/pom.xml
+**/*.jar
+.git
+**/.clojure
+.dir-locals.el
